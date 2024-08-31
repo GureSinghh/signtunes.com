@@ -28,7 +28,6 @@ function App({ params, searchParams }) {
   const [showAgeRating, setShowAgeRating] = useState(true);
   const [showVersion, setShowVersion] = useState(true);
   const [showRating, setShowRating] = useState(true);
-
   const [title, setTitle] = useState("Signtunes");
   const [name, setName] = useState("");
   const [description, setDescription] = useState(null);
