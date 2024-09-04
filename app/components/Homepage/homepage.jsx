@@ -148,8 +148,7 @@ export default function Homepage({ searchParams }) {
         device: device?.data?.pro || false,
         deviceExists: device?.data?.registered,
       });
-      setEmail(device.data?.email ?? "");
-
+      setEmail(device?.data?.result?.email);
       setAlertsLoad(true);
     } catch (err) {
       console.error(err.message);
